@@ -1,0 +1,146 @@
+body{
+    height: 69rem;
+    width: 80rem;
+    margin: 0 auto 0;
+}
+header {
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem;
+  }
+  
+  .logo-titulo {
+    display: flex;
+    align-items: center;
+  }
+  .info-texto h1 {
+    margin-bottom: 0rem; /* ou até 0,2rem se quiser bem próximo */
+  }
+  .esquerda {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-right: -2.8rem;
+    color: #6C6C6C;
+  }
+  .info-texto{
+    width: 24rem;
+    height: 7.5rem;
+    font-family: "Open Sans", sans-serif;
+    margin-left: 2rem;
+    font-weight: 600rem;
+
+  }
+  .texto{
+    margin-top: 0.8rem;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #6C6C6C;
+  }
+  .bosta{
+    margin-right: -0.46rem;
+  }
+  .direita{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin: 12rem 8rem 4.25rem auto;
+    color: #6C6C6C;
+  }
+  .linha-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0rem;
+  }
+  .direita img{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+  }
+  .direita p{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    
+  }
+  .titulo{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: bold;
+    font-size: 5rem;
+    color: #000000;
+  }
+  .isabela{
+    height: 15rem;
+    width: 80rem;
+    
+    display: flex;
+
+  }
+  a {
+    text-decoration: none; /* remove o sublinhado */
+    color: inherit;         /* herda a cor do elemento pai */
+  }
+  .apresentacao{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    display: flex;
+    align-items: flex-end;
+  }
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .paisagem:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+  }
+  .paisagem{
+    height: 17.8rem;
+    width: 17.8rem;
+    border-radius: 2%;
+  }
+  .galeria{
+    width: 80rem;
+    height: 59.63rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+
+  }
+  footer{
+    width: 74rem;
+    height: 4.8125rem;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 0 3rem;
+    white-space: nowrap;
+  }
+  footer p{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #252525;
+  }
+/*90rem 103rem
